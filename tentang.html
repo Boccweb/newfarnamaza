@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tentang Kami – Apotek Farmaza 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body data-page="tentang">
+
+  <div id="navbarPlaceholder"></div>
+
+  <!-- ===== HERO ===== -->
+  <div class="tentang-hero">
+    <div class="tentang-hero-inner">
+      <div class="tentang-hero-text">
+        <div class="tentang-hero-label" id="tentangLabel"></div>
+        <div class="tentang-hero-judul" id="tentangJudul"></div>
+        <div class="tentang-hero-sub" id="tentangSub"></div>
+        <div class="tentang-garis"></div>
+        <div class="tentang-hero-desc" id="tentangDesc"></div>
+      </div>
+      <!-- Foto apotek — isi "fotoApotek" di tentang-data.js -->
+      <div class="tentang-hero-img-wrap" id="tentangImgWrap"></div>
+    </div>
+  </div>
+
+  <!-- ===== MENGAPA FARMAZA ===== -->
+  <div class="mengapa-section">
+    <div class="mengapa-judul">Mengapa Memilih Apotek Farmaza 2?</div>
+    <div class="mengapa-garis"></div>
+    <div class="keunggulan-grid" id="keunggulanGrid"></div>
+  </div>
+
+  <!-- ===== STATISTIK BANNER ===== -->
+  <div class="statistik-banner" id="statistikBanner"></div>
+
+  <!-- ===== LAYANAN SINGKAT ===== -->
+  <div class="layanan-singkat-section">
+    <div class="layanan-singkat-judul">Layanan Kami</div>
+    <div class="layanan-singkat-garis"></div>
+    <div class="layanan-singkat-grid" id="layananSingkatGrid"></div>
+  </div>
+
+  <!-- ===== KOMITMEN BANNER ===== -->
+  <!-- Foto tim — isi "fotoTim" di tentang-data.js -->
+  <div id="komitmenBanner" class="komitmen-banner"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-item"><i class="fab fa-whatsapp footer-icon"></i><div class="footer-text"><strong>WhatsApp</strong>0851-7999-0832</div></div>
+      <div class="footer-item"><i class="fab fa-tiktok footer-icon"></i><div class="footer-text"><strong>TikTok</strong>@apotekfarmaza2</div></div>
+      <div class="footer-item"><i class="fas fa-headset footer-icon"></i><div class="footer-text"><strong>Konsultasi 24 Jam</strong>Kami siap membantu</div></div>
+    </div>
+  </footer>
+
+  <!-- Bottom Nav -->
+  <nav class="bottom-nav">
+    <div class="bottom-nav-inner">
+      <div class="bottom-nav-item" data-page="index" data-href="user.php"><i class="fas fa-home"></i><span>Beranda</span></div>
+      <div class="bottom-nav-item" data-page="produk" data-href="produk.php"><i class="fas fa-box"></i><span>Produk</span></div>
+      <div class="bottom-nav-item" data-page="layanan" data-href="layanan.php"><i class="fas fa-heart"></i><span>Layanan</span></div>
+      <div class="bottom-nav-item" data-page="artikel" data-href="artikel.php"><i class="fas fa-newspaper"></i><span>Artikel</span></div>
+      <div class="bottom-nav-item" data-page="kontak" data-href="kontak.php"><i class="fas fa-phone"></i><span>Kontak</span></div>
+    </div>
+  </nav>
+
+  <!-- Floating WA -->
+  <div class="wa-float">
+    <div class="wa-tooltip">💬 Konsultasi Gratis!</div>
+    <div class="wa-float-btn"><i class="fab fa-whatsapp"></i></div>
+  </div>
+
+  <script src="tentang-data.js"></script>
+  <script src="main.js"></script>
+  <script src="tentang.js"></script>
+</body>
+</html>
